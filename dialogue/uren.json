@@ -1,0 +1,37 @@
+[
+  {
+    "id": "uren_intro",
+    "lines": [
+      "Oh. You're from down there.",
+      "We are so not going down there."
+    ],
+    "choices": [
+      {
+        "text": "What's happening down there?",
+        "next": "uren_whats_happening"
+      },
+      {
+        "text": "Yeah, I'm fleeing",
+        "next": "uren_fleeing"
+      },
+      {
+        "text": "Good call.",
+        "requires": "venom",
+        "next": "uren_venom"
+      }
+    ]
+  },
+  {
+    "id": "uren_whats_happening",
+    "lines": [
+      "You don't know?",
+      "The big one went crazy, like, actually crazy. Eating everything, destroying everything.",
+      "We lost like six friends. Well. Four friends and Two guys we didn't really like.",
+      "*pauses*",
+      "Still though"
+    ],
+    "choices": [
+
+    ]
+  }
+]
