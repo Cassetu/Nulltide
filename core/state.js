@@ -1,5 +1,5 @@
 export const state = {
-    gameState: "mainmenu",
+    gameState: "clicktostart",
     width: 1280,
     height: 720
 };
