@@ -1,0 +1,41 @@
+[
+  {
+    "id": "oben_intro",
+    "lines": [
+      "*A small, ugly creature resting on the seafloor. Doesn't move when you approach.*",
+      "Oh. Another one fleeing.",
+      "That's the fourteenth today. Probably more after you.",
+      "*pauses*",
+      "Probably won't matter."
+    ],
+    "choices": [
+      {
+        "text": "Have you seen the guardian?",
+        "next": "oben_whats_happening"
+      },
+      {
+        "text": "You should flee too.",
+        "next": "oben_fleeing"
+      },
+      {
+        "text": "I could protect you.",
+        "requires": "venom",
+        "next": "oben_venom"
+      }
+    ]
+  },
+  {
+    "id": "oben_whats_happening",
+    "lines": [
+      "Yes.",
+      "It was very large. and very angry. And coming this direction.",
+      "I'd say we have maybe one or two days."
+    ],
+    "choices": [
+      {
+        "text": "...",
+        "next": "end"
+      }
+    ]
+  }
+]
