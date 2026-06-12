@@ -1,6 +1,7 @@
 import { state } from './state.js';
 import { updateMainMenu, drawMainMenu } from './scenes/mainmenu.js';
 import { updateClickToStart, drawClickToStart } from './scenes/clicktostart.js';
+import { input } from './input.js'
 
 const canvas = document.getElementById('game-canvas');
 const ctx = canvas.getContext('2d');
@@ -28,6 +29,7 @@ function draw() {
 function loop() {
     update();
     draw();
+    input.clicked = false;
     requestAnimationFrame(loop);
 }
 
