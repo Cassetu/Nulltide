@@ -2,8 +2,10 @@
   {
     "id": "uren_intro",
     "lines": [
+      "*Three heads turn toward you. Two at the same time. The third is eating something*",
       "Oh. You're from down there.",
-      "We are so not going down there."
+      "We are so not going down there.",
+      "*The third head glances up, then goes back to eating*"
     ],
     "choices": [
       {
@@ -31,7 +33,40 @@
       "Still though"
     ],
     "choices": [
-
+      {
+        "text": "...",
+        "next": "end"
+      }
+    ]
+  },
+  {
+    "id": "uren_fleeing",
+    "lines": [
+      "Yeah same",
+      "We've been up here for three days trying to figure out which direction is safer.",
+      "We haven't figured it out yet.",
+      "*The third head finally looks up*",
+      "He says left. We don't trust him."
+    ],
+    "choices": [
+      {
+        "text": "...",
+        "next": "end"
+      }
+    ]
+  },
+  {
+    "id": "uren_venom",
+    "lines": [
+      "*All three heads notice at the same time*",
+      "You know what, you seem really cool actually. Really cool creature.",
+      "Do you need anything. We have stuff."
+    ],
+    "choices": [
+      {
+        "text": "...",
+        "next": "end"
+      }
     ]
   }
 ]
